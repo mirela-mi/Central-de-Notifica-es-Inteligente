@@ -1,0 +1,46 @@
+1. O que é um Toast e qual sua finalidade?
+
+É uma mensagem que aparece na tela para avisar o usuário quando alguma coisa acontece no sistema.
+
+2. Qual é a principal diferença entre um Toast e um Modal?
+
+O Toast aparece por alguns segundos e some sozinho. Já o Modal abre uma janela que precisa ser fechada pelo usuário.
+
+3. O Toast aparece automaticamente ou precisa ser ativado?
+
+Ele precisa ser ativado por uma ação usando JavaScript.
+
+4. Qual instrução JavaScript permite criar uma instância de Toast?
+
+new bootstrap.Toast(elemento).
+
+5. Para que serve o método .show()?
+
+Serve para fazer a notificação aparecer na tela.
+
+6. O que significa a opção autohide?
+
+É uma opção que faz a notificação sumir sozinha depois de um tempo.
+
+7. Qual é a finalidade de delay?
+
+Serve para escolher quantos segundos a notificação vai ficar aparecendo.
+
+
+
+Reflexão final
+1. Qual foi a maior diferença entre programar um Modal e um Toast?
+
+Achei que a maior diferença é que o Toast desaparece sozinho, enquanto o Modal precisa ser fechado manualmente.
+
+2. Qual funcionalidade exigiu mais pesquisa?
+
+A parte de fazer as notificações funcionarem e registrar as ações no histórico.
+
+3. O que foi reaproveitado da atividade anterior?
+
+Reaproveitamos o que aprendemos sobre Bootstrap, JavaScript e como criar e fechar Modais.
+
+4. Se o sistema precisasse apresentar 20 tipos de notificação, vocês criariam 20 Toasts? Justifiquem.
+
+Não, porque daria muito trabalho criar um para cada mensagem. Seria melhor usar apenas um e trocar o título e o texto de acordo com cada ação.

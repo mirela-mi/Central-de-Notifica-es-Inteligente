@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    background-color: #fff0f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #d63384;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: #c2185b;
+    font-weight: bold;
+}
+
+.card {
+    border: 1px solid #f3b6ce;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-title {
+    color: #d63384;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #d63384;
+    border-color: #d63384;
+}
+
+.btn-primary:hover {
+    background-color: #ad286b;
+}
+
+.btn-warning {
+    background-color: #f4a6c1;
+    border-color: #f4a6c1;
+    color: #333;
+}
+
+.btn-success {
+    background-color: #c94c87;
+    border-color: #c94c87;
+}
+
+.historico {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #f3b6ce;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border-color: #f3c5d7;
+}
+
+.badge.bg-primary {
+    background-color: #d63384 !important;
+}
+
+.btn-outline-primary {
+    color: #d63384;
+    border-color: #d63384;
+}
+
+.btn-outline-primary:hover {
+    background-color: #d63384;
+    color: white;
+}
+
+.toast-header {
+    background-color: #ffe0eb;
+    color: #ad286b;
+}
+
+.modal-header {
+    background-color: #ffe0eb;
+    color: #ad286b;
+}
+
+footer {
+    background-color: #d63384;
+    color: white;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .historico {
+        padding: 15px;
+    }
+}
